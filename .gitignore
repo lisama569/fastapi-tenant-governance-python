@@ -7,3 +7,8 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+
+# 本地 SQLite 数据与 WAL 文件
+*.db
+*.db-wal
+*.db-shm
